@@ -2,7 +2,7 @@
 © 2025 KR-Labs. All rights reserved.  
 KR-Labs™ is a trademark of Quipu Research Labs, LLC, a subsidiary of Sundiata Giddasira, Inc.
 
-SPDX-License-Identifier: CC-BY-4.0
+SPDX-License-Identifier: MIT AND CC-BY-SA-4.0
 
 # KRL Tutorials
 
@@ -284,9 +284,40 @@ Quarterly, to reflect new features and best practices.
 
 ## License
 
-[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)  
+This repository uses **dual licensing** to provide maximum flexibility:
 
-Share and adapt with attribution.
+### 📝 For Code (MIT License)
+All Python code, scripts, and code examples are licensed under the [MIT License](LICENSE-CODE).
+
+**You can:**
+- ✓ Use in commercial projects
+- ✓ Modify and distribute
+- ✓ Include in proprietary software
+- ✓ No need to open source your project
+
+**You must:**
+- Include copyright notice and license
+
+### 📚 For Content (CC-BY-SA-4.0)
+All documentation, tutorials, and educational materials are licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](LICENSE-CONTENT).
+
+**You can:**
+- ✓ Share and redistribute
+- ✓ Adapt for your courses/training
+- ✓ Use commercially
+
+**You must:**
+- Provide attribution to KR-Labs
+- Indicate if changes were made
+- Share derivative works under CC-BY-SA-4.0
+
+### Quick Guide
+
+**Copying code into your project?** → Use MIT License terms ([LICENSE-CODE](LICENSE-CODE))  
+**Using tutorials in your course?** → Use CC-BY-SA-4.0 terms ([LICENSE-CONTENT](LICENSE-CONTENT))  
+**Using both?** → Follow both licenses for respective parts
+
+See [LICENSE](LICENSE) for complete details.
 
 ---
 

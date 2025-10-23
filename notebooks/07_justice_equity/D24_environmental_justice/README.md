@@ -1,3 +1,5 @@
+![KR-Labs](../../../assets/images/KRLabs_WebLogo.png)
+
 # D24: Environmental Justice
 
 **Domain Category:** Minor Socioeconomic Domain  

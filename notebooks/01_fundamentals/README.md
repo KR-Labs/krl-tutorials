@@ -1,3 +1,5 @@
+![KR-Labs](../../assets/images/KRLabs_WebLogo.png)
+
 # Fundamentals
 
 Core economic and social metrics - start here!

@@ -1,3 +1,5 @@
+![KR-Labs](../../../assets/images/KRLabs_WebLogo.png)
+
 # D19: Civic Engagement & Political
 
 **Domain Category:** Major Socioeconomic Domain  

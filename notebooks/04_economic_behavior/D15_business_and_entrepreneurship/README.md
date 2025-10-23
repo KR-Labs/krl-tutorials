@@ -1,3 +1,5 @@
+![KR-Labs](../../../assets/images/KRLabs_WebLogo.png)
+
 # D15: Business & Entrepreneurship
 
 **Domain Category:** Major Socioeconomic Domain  

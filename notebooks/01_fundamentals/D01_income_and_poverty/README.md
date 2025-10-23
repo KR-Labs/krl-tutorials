@@ -1,3 +1,5 @@
+![KR-Labs](../../../assets/images/KRLabs_WebLogo.png)
+
 # D01: Income & Poverty
 
 **Domain Category:** Major Socioeconomic Domain  

@@ -1,3 +1,5 @@
+![KR-Labs](../../../assets/images/KRLabs_WebLogo.png)
+
 # D33: Gender Equality
 
 **Domain Category:** Minor Socioeconomic Domain  

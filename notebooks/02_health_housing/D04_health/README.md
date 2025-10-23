@@ -1,3 +1,5 @@
+![KR-Labs](../../../assets/images/KRLabs_WebLogo.png)
+
 # D04: Health
 
 **Domain Category:** Major Socioeconomic Domain  

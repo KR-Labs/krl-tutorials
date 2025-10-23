@@ -1,3 +1,5 @@
+![KR-Labs](../../../assets/images/KRLabs_WebLogo.png)
+
 # D29: Innovation & Entrepreneurship
 
 **Domain Category:** Minor Socioeconomic Domain  

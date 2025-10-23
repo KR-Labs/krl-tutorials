@@ -1,3 +1,5 @@
+![KR-Labs](../../../assets/images/KRLabs_WebLogo.png)
+
 # D26: Public Safety
 
 **Domain Category:** Minor Socioeconomic Domain  

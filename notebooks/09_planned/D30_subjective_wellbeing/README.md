@@ -1,3 +1,5 @@
+![KR-Labs](../../../assets/images/KRLabs_WebLogo.png)
+
 # D30: Subjective Well-Being
 
 **Domain Category:** Minor Socioeconomic Domain  

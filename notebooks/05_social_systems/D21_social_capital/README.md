@@ -1,3 +1,5 @@
+![KR-Labs](../../../assets/images/KRLabs_WebLogo.png)
+
 # D21: Social Capital
 
 **Domain Category:** Minor Socioeconomic Domain  

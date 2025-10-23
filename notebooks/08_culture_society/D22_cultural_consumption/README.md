@@ -1,3 +1,5 @@
+![KR-Labs](../../../assets/images/KRLabs_WebLogo.png)
+
 # D22: Cultural Consumption
 
 **Domain Category:** Minor Socioeconomic Domain  

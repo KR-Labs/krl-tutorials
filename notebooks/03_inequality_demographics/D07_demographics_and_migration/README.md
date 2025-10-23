@@ -1,3 +1,5 @@
+![KR-Labs](../../../assets/images/KRLabs_WebLogo.png)
+
 # D07: Demographics & Migration
 
 **Domain Category:** Major Socioeconomic Domain  

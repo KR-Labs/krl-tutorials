@@ -1,3 +1,5 @@
+![KR-Labs](../../../assets/images/KRLabs_WebLogo.png)
+
 # D12: Environmental Economics
 
 **Domain Category:** Major Socioeconomic Domain  

@@ -1,3 +1,5 @@
+![KR-Labs](../../../assets/images/KRLabs_WebLogo.png)
+
 # D25: Food & Nutrition
 
 **Domain Category:** Minor Socioeconomic Domain  

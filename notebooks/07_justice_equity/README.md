@@ -1,3 +1,5 @@
+![KR-Labs](../../assets/images/KRLabs_WebLogo.png)
+
 # Justice & Equity
 
 Crime, public safety, and equity across systems

@@ -1,3 +1,5 @@
+![KR-Labs](../../../assets/images/KRLabs_WebLogo.png)
+
 # D03: Education
 
 **Domain Category:** Major Socioeconomic Domain  

@@ -1,3 +1,5 @@
+![KR-Labs](../../assets/images/KRLabs_WebLogo.png)
+
 # Culture & Society
 
 Cultural economics, consumption, nutrition, and housing affordability

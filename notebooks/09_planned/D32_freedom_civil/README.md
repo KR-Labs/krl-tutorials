@@ -1,3 +1,5 @@
+![KR-Labs](../../../assets/images/KRLabs_WebLogo.png)
+
 # D32: Freedom & Civil Liberties
 
 **Domain Category:** Minor Socioeconomic Domain  

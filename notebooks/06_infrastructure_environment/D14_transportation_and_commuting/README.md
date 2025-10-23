@@ -1,3 +1,5 @@
+![KR-Labs](../../../assets/images/KRLabs_WebLogo.png)
+
 # D14: Transportation & Commuting
 
 **Domain Category:** Major Socioeconomic Domain  

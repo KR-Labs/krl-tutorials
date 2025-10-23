@@ -1,3 +1,5 @@
+![KR-Labs](../../../assets/images/KRLabs_WebLogo.png)
+
 # D05: Housing
 
 **Domain Category:** Major Socioeconomic Domain  

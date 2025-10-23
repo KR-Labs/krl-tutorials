@@ -1,3 +1,5 @@
+![KR-Labs](../../../assets/images/KRLabs_WebLogo.png)
+
 # D13: Crime & Public Safety
 
 **Domain Category:** Major Socioeconomic Domain  

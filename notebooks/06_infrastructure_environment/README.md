@@ -1,3 +1,5 @@
+![KR-Labs](../../assets/images/KRLabs_WebLogo.png)
+
 # Infrastructure & Environment
 
 Transportation, digital economy, food systems, and environmental economics

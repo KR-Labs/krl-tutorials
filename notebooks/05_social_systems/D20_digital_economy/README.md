@@ -1,3 +1,5 @@
+![KR-Labs](../../../assets/images/KRLabs_WebLogo.png)
+
 # D20: Digital Economy
 
 **Domain Category:** Minor Socioeconomic Domain  

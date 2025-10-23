@@ -1,3 +1,5 @@
+![KR-Labs](../../../assets/images/KRLabs_WebLogo.png)
+
 # D10: Social Mobility & Opportunity
 
 **Domain Category:** Major Socioeconomic Domain  

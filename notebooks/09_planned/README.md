@@ -1,3 +1,5 @@
+![KR-Labs](../../assets/images/KRLabs_WebLogo.png)
+
 # Planned Tutorials
 
 Future tutorials in development

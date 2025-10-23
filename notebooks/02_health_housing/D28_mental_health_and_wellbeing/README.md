@@ -1,3 +1,5 @@
+![KR-Labs](../../../assets/images/KRLabs_WebLogo.png)
+
 # D28: Mental Health & Wellbeing
 
 **Domain Category:** Minor Socioeconomic Domain  

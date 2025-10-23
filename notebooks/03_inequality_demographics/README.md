@@ -1,3 +1,5 @@
+![KR-Labs](../../assets/images/KRLabs_WebLogo.png)
+
 # Inequality & Demographics
 
 Economic inequality, wealth distribution, and population dynamics

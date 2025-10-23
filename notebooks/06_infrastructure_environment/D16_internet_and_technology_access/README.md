@@ -1,3 +1,5 @@
+![KR-Labs](../../../assets/images/KRLabs_WebLogo.png)
+
 # D16: Internet & Technology Access
 
 **Domain Category:** Major Socioeconomic Domain  

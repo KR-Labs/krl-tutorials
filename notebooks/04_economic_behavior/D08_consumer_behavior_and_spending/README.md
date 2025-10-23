@@ -1,3 +1,5 @@
+![KR-Labs](../../../assets/images/KRLabs_WebLogo.png)
+
 # D08: Consumer Behavior & Spending
 
 **Domain Category:** Major Socioeconomic Domain  

@@ -1,3 +1,5 @@
+![KR-Labs](../../../assets/images/KRLabs_WebLogo.png)
+
 # D09: Industry & Economic Structure
 
 **Domain Category:** Major Socioeconomic Domain  

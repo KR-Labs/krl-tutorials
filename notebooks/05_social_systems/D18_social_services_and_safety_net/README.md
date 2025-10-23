@@ -1,3 +1,5 @@
+![KR-Labs](../../../assets/images/KRLabs_WebLogo.png)
+
 # D18: Social Services & Safety Net
 
 **Domain Category:** Major Socioeconomic Domain  

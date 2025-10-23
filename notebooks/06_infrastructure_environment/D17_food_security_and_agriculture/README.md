@@ -1,3 +1,5 @@
+![KR-Labs](../../../assets/images/KRLabs_WebLogo.png)
+
 # D17: Food Security & Agriculture
 
 **Domain Category:** Major Socioeconomic Domain  

@@ -1,3 +1,5 @@
+![KR-Labs](../../assets/images/KRLabs_WebLogo.png)
+
 # Economic Behavior
 
 Consumer spending, industry structure, and business dynamics

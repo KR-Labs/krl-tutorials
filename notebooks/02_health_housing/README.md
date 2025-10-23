@@ -1,3 +1,5 @@
+![KR-Labs](../../assets/images/KRLabs_WebLogo.png)
+
 # Health & Housing
 
 Health outcomes, healthcare access, and housing markets

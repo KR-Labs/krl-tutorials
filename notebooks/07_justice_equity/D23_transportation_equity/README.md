@@ -1,3 +1,5 @@
+![KR-Labs](../../../assets/images/KRLabs_WebLogo.png)
+
 # D23: Transportation Equity
 
 **Domain Category:** Minor Socioeconomic Domain  

@@ -1,3 +1,5 @@
+![KR-Labs](../../assets/images/KRLabs_WebLogo.png)
+
 # Social Systems
 
 Social mobility, capital, services, and civic engagement

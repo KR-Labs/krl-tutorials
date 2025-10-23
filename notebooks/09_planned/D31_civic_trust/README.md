@@ -1,3 +1,5 @@
+![KR-Labs](../../../assets/images/KRLabs_WebLogo.png)
+
 # D31: Civic Trust & Engagement
 
 **Domain Category:** Minor Socioeconomic Domain  

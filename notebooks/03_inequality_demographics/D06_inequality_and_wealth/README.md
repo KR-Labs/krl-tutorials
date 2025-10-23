@@ -1,3 +1,5 @@
+![KR-Labs](../../../assets/images/KRLabs_WebLogo.png)
+
 # D06: Inequality & Wealth
 
 **Domain Category:** Major Socioeconomic Domain  
