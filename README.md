@@ -48,28 +48,28 @@ Transition from analysis to implementation. Build interactive dashboards, deploy
 
 Our comprehensive tutorial library covers 8 core domains with 29 interactive notebooks spanning 33 specialized topics:
 
-**📊 Economic & Social Fundamentals**  
+**Economic & Social Fundamentals**  
 Income analysis, employment trends, education metrics, housing dynamics, and health indicators
 
-**🔗 Data Integration & Connectivity**  
+**Data Integration & Connectivity**  
 Connect to Federal Reserve (FRED), Census Bureau, Bureau of Labor Statistics, World Bank, and OECD data sources
 
-**📈 Advanced Analytics**  
+**Advanced Analytics**  
 Time series forecasting, causal inference methodologies, machine learning applications, and network analysis
 
-**🗺️ Geospatial Intelligence**  
+**Geospatial Intelligence**  
 Spatial econometrics, interactive mapping, geographic clustering, and regional analysis
 
-**💼 Business Applications**  
+** Business Applications**  
 Consumer behavior, industry structure, entrepreneurship, innovation ecosystems, and digital economy insights
 
-**🏛️ Policy & Impact Evaluation**  
+**Policy & Impact Evaluation**  
 Difference-in-differences, synthetic control methods, regression discontinuity, and program effectiveness assessment
 
-**⚖️ Equity & Justice Analysis**  
+**Equity & Justice Analysis**  
 Environmental justice, public safety, transportation equity, and social mobility metrics
 
-**🚀 Production & Deployment**  
+**Production & Deployment**  
 Dashboard development, API creation, containerization, and enterprise-scale optimization
 
 [View Complete Tutorial Index →](notebooks/)  
