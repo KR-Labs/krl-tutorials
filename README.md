@@ -234,10 +234,10 @@ A: We update tutorials quarterly to reflect new features and best practices.
 
 ## Support
 
-- **Documentation**: https://docs.krlanalytics.org
+- **Documentation**: https://krlabs.dev
 - **Issues**: https://github.com/KR-Labs/krl-tutorials/issues
 - **Discussions**: https://github.com/orgs/KR-Labs/discussions
-- **Email**: tutorials@krlabs.org
+- **Email**: info@krlabs.dev
 
 ## License
 
