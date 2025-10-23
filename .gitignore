@@ -81,3 +81,12 @@ data/raw/*
 data/interim/*
 data/processed/*
 !data/.gitkeep
+
+# Internal planning/metadata (not for public repo)
+.github/REPOSITORY_METADATA.md
+.github/TOPICS.txt
+.github/DESCRIPTION.md
+.github/discussions/
+docs/wiki/README.md
+*_INTERNAL*.md
+*_PLANNING*.md
