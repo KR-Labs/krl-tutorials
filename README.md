@@ -4,6 +4,10 @@ KR-Labs™ is a trademark of Quipu Research Labs, LLC, a subsidiary of Sundiata 
 
 SPDX-License-Identifier: MIT AND CC-BY-SA-4.0
 
+<div align="center">
+  <img src="assets/images/KRLabs_WebLogo.png" alt="KR-Labs" width="200">
+</div>
+
 # KRL Tutorials
 
 A structured, comprehensive guide to mastering the KRL Analytics Suite. These tutorials combine interactive Jupyter notebooks, step-by-step instructions, and practical exercises designed for both individual analysts and institutional teams.

@@ -1,4 +1,6 @@
-![KR-Labs](../../../assets/images/KRLabs_WebLogo.png)
+<div align="center">
+  <img src="../../../assets/images/KRLabs_WebLogo.png" alt="KR-Labs" width="200">
+</div>
 
 # D22: Cultural Consumption
 
