@@ -1,263 +1,304 @@
----
+
 © 2025 KR-Labs. All rights reserved.  
-KR-Labs™ is a trademark of Quipu Research Labs, LLC, a subsidiary of Sudiata Giddasira, Inc.
+KR-Labs™ is a trademark of Quipu Research Labs, LLC, a subsidiary of Sundiata Giddasira, Inc.
 
 SPDX-License-Identifier: CC-BY-4.0
----
 
 # KRL Tutorials
 
-Comprehensive tutorials and learning resources for the KRL Analytics Suite, featuring interactive Jupyter notebooks, video guides, and hands-on examples.
+A structured, comprehensive guide to mastering the KRL Analytics Suite. These tutorials combine interactive Jupyter notebooks, step-by-step instructions, and practical exercises designed for both individual analysts and institutional teams.
+
+---
+
+## Table of Contents
+
+1. [Overview](#overview)  
+2. [Learning Paths](#learning-paths)  
+   - Beginner Path  
+   - Intermediate Path  
+   - Advanced Path  
+   - Expert Path  
+3. [Tutorial Index](#tutorial-index)  
+4. [Quick Start](#quick-start)  
+   - Installation  
+   - Running Tutorials  
+   - Running Individual Tutorials  
+5. [Tutorial Structure](#tutorial-structure)  
+6. [Prerequisites](#prerequisites)  
+7. [Data Requirements](#data-requirements)  
+8. [Video Tutorials](#video-tutorials)  
+9. [Contributing](#contributing)  
+10. [Tutorial Dataset Repository](#tutorial-dataset-repository)  
+11. [FAQ](#faq)  
+12. [Support](#support)  
+13. [License](#license)  
+14. [Related Projects](#related-projects)  
+15. [Acknowledgments](#acknowledgments)
+
+---
 
 ## Overview
 
-This repository provides educational content for learning the KRL Analytics Suite, from beginner-friendly introductions to advanced analytical techniques. All tutorials are provided as interactive Jupyter notebooks with detailed explanations, code examples, and exercises.
+KRL Tutorials provide a hands-on, guided learning experience for the KRL Analytics Suite. Whether you are beginning your journey in data analytics or advancing toward production-grade systems, this repository offers a clear, structured roadmap.
+
+All tutorials are delivered as interactive Jupyter notebooks with embedded explanations, code examples, and exercises for practical application.
+
+---
 
 ## Learning Paths
 
-### 🌱 Beginner Path (Getting Started)
-1. **Introduction to KRL** - Overview of the analytics suite and core concepts
-2. **Setting Up Your Environment** - Installation and configuration
-3. **Your First Data Analysis** - Basic data loading and visualization
-4. **Working with Economic Data** - FRED and Census API basics
+### Beginner Path: Getting Started
+1. **Introduction to KRL** – Explore the analytics suite and core concepts.  
+2. **Setting Up Your Environment** – Installation and configuration guidance.  
+3. **Your First Data Analysis** – Load and visualize data.  
+4. **Working with Economic Data** – Access FRED and Census APIs.  
 
-### 📊 Intermediate Path (Data Analysis)
-1. **Advanced Data Connectors** - Multi-source data integration
-2. **Time Series Analysis** - ARIMA, seasonal decomposition, forecasting
-3. **Data Visualization** - Creating publication-quality charts
-4. **Working with Geographic Data** - Geospatial analysis and mapping
+### Intermediate Path: Data Analysis
+1. **Advanced Data Connectors** – Combine data from multiple sources.  
+2. **Time Series Analysis** – Learn ARIMA, seasonal decomposition, and forecasting.  
+3. **Data Visualization** – Create professional-grade charts and figures.  
+4. **Working with Geographic Data** – Geospatial analysis and mapping techniques.  
 
-### 🎓 Advanced Path (Causal Inference)
-1. **Difference-in-Differences** - Policy evaluation with DiD
-2. **Synthetic Control Methods** - Creating counterfactual scenarios
-3. **Regression Discontinuity Design** - Exploiting policy thresholds
-4. **Propensity Score Matching** - Controlling for confounders
+### Advanced Path: Causal Inference
+1. **Difference-in-Differences** – Evaluate policy impacts using DiD.  
+2. **Synthetic Control Methods** – Build counterfactual scenarios.  
+3. **Regression Discontinuity Design** – Leverage policy thresholds.  
+4. **Propensity Score Matching** – Control for confounders in observational studies.  
 
-### 🚀 Expert Path (Production Systems)
-1. **Building Dashboards** - Interactive analytics with Streamlit
-2. **Model Deployment** - Deploying models to production
-3. **API Development** - Building data APIs
-4. **Performance Optimization** - Caching, parallelization, and scaling
+### Expert Path: Production Systems
+1. **Building Dashboards** – Develop interactive visualizations with Streamlit.  
+2. **Model Deployment** – Move models from notebooks to production.  
+3. **API Development** – Construct robust data APIs.  
+4. **Performance Optimization** – Implement caching, parallelization, and scaling.
+
+---
 
 ## Tutorial Index
 
-### Getting Started (tutorials/01_getting_started/)
-- `01_introduction.ipynb` - Welcome to KRL Analytics Suite
-- `02_installation.ipynb` - Setup and configuration guide
-- `03_first_analysis.ipynb` - Your first economic analysis
-- `04_understanding_data_sources.ipynb` - Data connectors overview
+### Getting Started
+- `01_introduction.ipynb` – Welcome to KRL Analytics Suite  
+- `02_installation.ipynb` – Setup and configuration guide  
+- `03_first_analysis.ipynb` – First economic analysis  
+- `04_understanding_data_sources.ipynb` – Overview of data connectors  
 
-### Data Collection (tutorials/02_data_collection/)
-- `01_fred_connector.ipynb` - Federal Reserve Economic Data API
-- `02_census_connector.ipynb` - U.S. Census Bureau data
-- `03_bls_connector.ipynb` - Bureau of Labor Statistics
-- `04_world_bank_connector.ipynb` - World Bank Development Indicators
-- `05_oecd_connector.ipynb` - OECD data
-- `06_multi_source_integration.ipynb` - Combining multiple data sources
+### Data Collection
+- `01_fred_connector.ipynb` – Federal Reserve Economic Data API  
+- `02_census_connector.ipynb` – U.S. Census Bureau API  
+- `03_bls_connector.ipynb` – Bureau of Labor Statistics  
+- `04_world_bank_connector.ipynb` – World Bank Development Indicators  
+- `05_oecd_connector.ipynb` – OECD data sources  
+- `06_multi_source_integration.ipynb` – Multi-source integration  
 
-### Data Exploration (tutorials/03_data_exploration/)
-- `01_exploratory_data_analysis.ipynb` - EDA techniques
-- `02_time_series_visualization.ipynb` - Visualizing temporal data
-- `03_geographic_visualization.ipynb` - Maps and spatial analysis
-- `04_interactive_charts.ipynb` - Plotly and interactive visualizations
+### Data Exploration
+- `01_exploratory_data_analysis.ipynb` – Exploratory Data Analysis techniques  
+- `02_time_series_visualization.ipynb` – Visualizing temporal data  
+- `03_geographic_visualization.ipynb` – Maps and spatial analytics  
+- `04_interactive_charts.ipynb` – Interactive visualizations using Plotly  
 
-### Statistical Models (tutorials/04_statistical_models/)
-- `01_arima_forecasting.ipynb` - Time series forecasting
-- `02_var_models.ipynb` - Vector autoregression
-- `03_granger_causality.ipynb` - Testing causal relationships
-- `04_seasonal_decomposition.ipynb` - Seasonal analysis
+### Statistical Models
+- `01_arima_forecasting.ipynb` – Time series forecasting  
+- `02_var_models.ipynb` – Vector autoregression models  
+- `03_granger_causality.ipynb` – Testing causal relationships  
+- `04_seasonal_decomposition.ipynb` – Seasonal analysis  
 
-### Causal Inference (tutorials/05_causal_inference/)
-- `01_difference_in_differences.ipynb` - DiD methodology
-- `02_synthetic_control.ipynb` - Synthetic control methods
-- `03_regression_discontinuity.ipynb` - RDD design
-- `04_propensity_score_matching.ipynb` - PSM techniques
-- `05_instrumental_variables.ipynb` - IV estimation
+### Causal Inference
+- `01_difference_in_differences.ipynb` – DiD methodology  
+- `02_synthetic_control.ipynb` – Synthetic control analysis  
+- `03_regression_discontinuity.ipynb` – Regression discontinuity design  
+- `04_propensity_score_matching.ipynb` – Propensity score methods  
+- `05_instrumental_variables.ipynb` – Instrumental variable estimation  
 
-### Machine Learning (tutorials/06_machine_learning/)
-- `01_supervised_learning.ipynb` - Regression and classification
-- `02_unsupervised_learning.ipynb` - Clustering and dimensionality reduction
-- `03_feature_engineering.ipynb` - Creating predictive features
-- `04_model_evaluation.ipynb` - Cross-validation and metrics
+### Machine Learning
+- `01_supervised_learning.ipynb` – Regression and classification  
+- `02_unsupervised_learning.ipynb` – Clustering and dimensionality reduction  
+- `03_feature_engineering.ipynb` – Construct predictive features  
+- `04_model_evaluation.ipynb` – Cross-validation and performance metrics  
 
-### Network Analysis (tutorials/07_network_analysis/)
-- `01_economic_networks.ipynb` - Network fundamentals
-- `02_supply_chain_analysis.ipynb` - Supply chain networks
-- `03_regional_networks.ipynb` - Regional economic linkages
-- `04_centrality_measures.ipynb` - Network metrics
+### Network Analysis
+- `01_economic_networks.ipynb` – Network fundamentals  
+- `02_supply_chain_analysis.ipynb` – Supply chain networks  
+- `03_regional_networks.ipynb` – Regional economic linkages  
+- `04_centrality_measures.ipynb` – Network metrics and centrality  
 
-### Geospatial Analysis (tutorials/08_geospatial/)
-- `01_geographic_data.ipynb` - Working with shapefiles and GeoJSON
-- `02_spatial_econometrics.ipynb` - Spatial regression models
-- `03_interactive_maps.ipynb` - Folium and mapping
-- `04_spatial_clustering.ipynb` - Geographic clustering
+### Geospatial Analysis
+- `01_geographic_data.ipynb` – Shapefiles and GeoJSON data  
+- `02_spatial_econometrics.ipynb` – Spatial regression models  
+- `03_interactive_maps.ipynb` – Folium maps and visualization  
+- `04_spatial_clustering.ipynb` – Geographic clustering techniques  
 
-### Dashboard Development (tutorials/09_dashboards/)
-- `01_streamlit_basics.ipynb` - Building your first dashboard
-- `02_interactive_components.ipynb` - Widgets and forms
-- `03_data_integration.ipynb` - Connecting data sources
-- `04_deployment.ipynb` - Deploying to production
+### Dashboard Development
+- `01_streamlit_basics.ipynb` – First dashboard creation  
+- `02_interactive_components.ipynb` – Widgets and form controls  
+- `03_data_integration.ipynb` – Integrate multiple data sources  
+- `04_deployment.ipynb` – Deploy dashboards to production  
 
-### Production Systems (tutorials/10_production/)
-- `01_api_development.ipynb` - Building REST APIs
-- `02_caching_strategies.ipynb` - Performance optimization
-- `03_docker_deployment.ipynb` - Containerization
-- `04_ci_cd_pipelines.ipynb` - Automated testing and deployment
+### Production Systems
+- `01_api_development.ipynb` – Build RESTful APIs  
+- `02_caching_strategies.ipynb` – Performance optimization techniques  
+- `03_docker_deployment.ipynb` – Containerization for deployment  
+- `04_ci_cd_pipelines.ipynb` – Automated testing and deployment pipelines  
+
+---
 
 ## Quick Start
 
 ### Installation
 
 ```bash
-# Clone the repository
 git clone https://github.com/KR-Labs/krl-tutorials.git
 cd krl-tutorials
 
-# Install dependencies
 pip install -r requirements.txt
-
-# Install Jupyter
 pip install jupyter jupyterlab
 ```
 
 ### Running Tutorials
 
 ```bash
-# Launch Jupyter Lab
 jupyter lab
-
-# Or Jupyter Notebook
+# or
 jupyter notebook
-
-# Navigate to tutorials/ directory and open any .ipynb file
 ```
+
+Navigate to the `tutorials/` directory and open any `.ipynb` file.
 
 ### Running Individual Tutorials
 
 ```bash
-# Run a specific tutorial
 jupyter nbconvert --to notebook --execute tutorials/01_getting_started/01_introduction.ipynb
 ```
 
+---
+
 ## Tutorial Structure
 
-Each tutorial follows a consistent structure:
+Each tutorial is organized consistently for a seamless learning experience:
 
-1. **Learning Objectives** - What you'll learn
-2. **Prerequisites** - Required knowledge and setup
-3. **Theory** - Conceptual background
-4. **Code Examples** - Hands-on implementation
-5. **Exercises** - Practice problems with solutions
-6. **Further Reading** - Additional resources
+1. **Learning Objectives** – Core concepts and skills covered  
+2. **Prerequisites** – Knowledge and setup requirements  
+3. **Theory** – Conceptual background and context  
+4. **Code Examples** – Step-by-step implementation  
+5. **Exercises** – Practice problems with solutions  
+6. **Further Reading** – References for deeper exploration  
+
+---
 
 ## Prerequisites
 
-### Python Knowledge
-- Basic Python programming (variables, functions, loops)
-- Familiarity with pandas and numpy
-- Understanding of Jupyter notebooks
+### Python
+- Basics: variables, functions, loops  
+- Libraries: pandas, numpy  
+- Jupyter notebook familiarity  
 
-### Statistical Knowledge
-- Descriptive statistics (mean, median, standard deviation)
-- Basic probability concepts
-- Hypothesis testing (for advanced tutorials)
+### Statistics
+- Descriptive statistics: mean, median, standard deviation  
+- Probability fundamentals  
+- Hypothesis testing (advanced tutorials)  
 
-### Economic Knowledge (Helpful but not required)
-- Basic microeconomics and macroeconomics concepts
-- Understanding of economic indicators (GDP, unemployment, inflation)
+### Economics (optional)
+- Basic micro/macro concepts  
+- Understanding of economic indicators: GDP, unemployment, inflation  
+
+---
 
 ## Data Requirements
 
-Many tutorials require API keys for data sources:
+Many tutorials require API keys:
 
 ```bash
-# Set environment variables
 export FRED_API_KEY=your_fred_api_key
 export CENSUS_API_KEY=your_census_api_key
 export BLS_API_KEY=your_bls_api_key
 export WORLD_BANK_API_KEY=your_world_bank_api_key
 ```
 
-Get free API keys:
-- **FRED**: https://fred.stlouisfed.org/docs/api/api_key.html
-- **Census**: https://api.census.gov/data/key_signup.html
-- **BLS**: https://www.bls.gov/developers/home.htm
-- **World Bank**: No API key required
+- FRED: https://fred.stlouisfed.org/docs/api/api_key.html  
+- Census: https://api.census.gov/data/key_signup.html  
+- BLS: https://www.bls.gov/developers/home.htm  
+- World Bank: No API key required  
+
+---
 
 ## Video Tutorials
 
-Video walkthroughs are available for select tutorials:
+- **Getting Started Series** – 30-minute walkthroughs  
+- **Causal Inference Masterclass** – 2-hour deep dive  
+- **Dashboard Development** – 45-minute production dashboard guide  
+- **Weekly Office Hours** – Live Q&A sessions  
 
-- **Getting Started Series** (30 min) - YouTube playlist
-- **Causal Inference Masterclass** (2 hours) - In-depth DiD and Synthetic Control
-- **Dashboard Development** (45 min) - Building production dashboards
-- **Weekly Office Hours** - Live Q&A sessions
+See [VIDEO_INDEX.md](VIDEO_INDEX.md) for the full list.
 
-See [VIDEO_INDEX.md](VIDEO_INDEX.md) for the complete list.
+---
 
 ## Contributing
 
-We welcome contributions! Ways to contribute:
+Contributions are welcome:
 
-1. **Report Issues** - Found a bug or typo? Open an issue
-2. **Suggest Tutorials** - Request topics you'd like to learn
-3. **Submit Tutorials** - Share your own tutorials
-4. **Improve Examples** - Enhance existing code examples
-5. **Add Exercises** - Create practice problems
+1. Report bugs or typos  
+2. Suggest new tutorial topics  
+3. Submit your own tutorials  
+4. Improve existing examples  
+5. Add exercises  
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Refer to [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+---
 
 ## Tutorial Dataset Repository
 
-Sample datasets are provided in the `datasets/` directory:
+Sample datasets are available in `datasets/`:
 
-- `economic_indicators/` - Sample FRED data
-- `census_demographics/` - Sample Census data
-- `policy_evaluation/` - Synthetic datasets for causal inference
-- `geographic/` - Shapefiles and GeoJSON
+- `economic_indicators/` – FRED sample data  
+- `census_demographics/` – Census sample data  
+- `policy_evaluation/` – Synthetic causal datasets  
+- `geographic/` – Shapefiles and GeoJSON  
 
-All datasets are provided under open licenses with proper attribution.
+All datasets include open licensing with proper attribution.
+
+---
 
 ## FAQ
 
-### Q: Do I need to complete tutorials in order?
-A: We recommend following the learning paths, but each tutorial is self-contained.
+**Do I need to complete tutorials sequentially?**  
+No. Each tutorial is self-contained, though following the learning paths is recommended.  
 
-### Q: Can I use tutorials for teaching?
-A: Yes! Tutorials are CC-BY 4.0 licensed. Please provide attribution.
+**Can tutorials be used for teaching?**  
+Yes. All tutorials are CC-BY 4.0 licensed; attribution required.  
 
-### Q: Are solutions provided for exercises?
-A: Yes, solutions are in the `solutions/` subdirectory of each tutorial.
+**Are exercise solutions provided?**  
+Yes. Solutions are located in the `solutions/` subdirectories.
 
-### Q: How often are tutorials updated?
-A: We update tutorials quarterly to reflect new features and best practices.
+**How often are tutorials updated?**  
+Quarterly, to reflect new features and best practices.
+
+---
 
 ## Support
 
-- **Documentation**: https://krlabs.dev
-- **Issues**: https://github.com/KR-Labs/krl-tutorials/issues
-- **Discussions**: https://github.com/orgs/KR-Labs/discussions
-- **Email**: info@krlabs.dev
+- Documentation: https://krlabs.dev  
+- Issues: https://github.com/KR-Labs/krl-tutorials/issues  
+- Discussions: https://github.com/orgs/KR-Labs/discussions  
+- Email: info@krlabs.dev  
+
+---
 
 ## License
 
-This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/).
+[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)  
 
-You are free to share and adapt the material with proper attribution.
+Share and adapt with attribution.
+
+---
 
 ## Related Projects
 
-- [krl-open-core](https://github.com/KR-Labs/krl-open-core) - Core utilities
-- [krl-data-connectors](https://github.com/KR-Labs/krl-data-connectors) - Data connectors
-- [krl-model-zoo](https://github.com/KR-Labs/krl-model-zoo) - Statistical models
-- [krl-dashboard](https://github.com/KR-Labs/krl-dashboard) - Interactive dashboards
+- [krl-open-core](https://github.com/KR-Labs/krl-open-core) – Core utilities  
+- [krl-data-connectors](https://github.com/KR-Labs/krl-data-connectors) – API connectors  
+- [krl-model-zoo](https://github.com/KR-Labs/krl-model-zoo) – Statistical modeling  
+- [krl-dashboard](https://github.com/KR-Labs/krl-dashboard) – Interactive dashboards  
+
+---
 
 ## Acknowledgments
 
-These tutorials were developed with contributions from:
-- Academic researchers
-- Industry practitioners
-- Open-source community members
-- Student interns and fellows
-
-Special thanks to all contributors who have improved these learning resources.
+Development and curation by academic researchers, industry practitioners, open-source contributors, and interns. Special thanks to all who have improved the tutorials and examples.
