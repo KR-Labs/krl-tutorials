@@ -1,0 +1,68 @@
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "krl-tutorials"
+version = "0.1.0"
+description = "Interactive tutorials and learning resources for the KRL Analytics Suite"
+readme = "README.md"
+authors = [{name = "KR-Labs Foundation", email = "dev@krlabs.org"}]
+license = {text = "CC-BY-4.0"}
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Creative Commons Attribution 4.0 International",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "krl-core>=0.1.0",
+    "krl-data-connectors>=0.1.0",
+    "krl-models>=0.1.0",
+    "krl-dashboard>=0.1.0",
+    "jupyter>=1.0.0",
+    "jupyterlab>=4.0.0",
+    "notebook>=7.0.0",
+    "pandas>=1.5.0",
+    "numpy>=1.23.0",
+    "matplotlib>=3.7.0",
+    "seaborn>=0.12.0",
+    "plotly>=5.17.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black>=23.0.0",
+    "isort>=5.12.0",
+    "flake8>=6.0.0",
+    "nbqa>=1.7.0",  # Notebook quality assurance
+]
+test = [
+    "pytest>=7.4.0",
+    "nbval>=0.10.0",  # Notebook validation
+]
+geospatial = [
+    "geopandas>=0.13.0",
+    "folium>=0.14.0",
+    "shapely>=2.0.0",
+]
+ml = [
+    "scikit-learn>=1.2.0",
+    "statsmodels>=0.14.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.black]
+line-length = 100
+target-version = ["py39", "py310", "py311"]
+
+[tool.isort]
+profile = "black"
+line_length = 100
