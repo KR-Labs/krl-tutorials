@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: General Questions & Support
+    url: https://github.com/KR-Labs/krl-tutorials/discussions
+    about: Ask questions and discuss tutorials with the community
+  - name: Security Vulnerabilities
+    url: https://github.com/KR-Labs/krl-tutorials/security/advisories/new
+    about: Report security issues (please do not file public issues)
+  - name: KR-Labs Website
+    url: https://krlabs.dev
+    about: Visit our official website for more information
