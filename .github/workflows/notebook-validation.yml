@@ -1,0 +1,122 @@
+# ----------------------------------------------------------------------
+# © 2025 KR-Labs. All rights reserved.
+# KR-Labs™ is a trademark of Quipu Research Labs, LLC,
+# a subsidiary of Sudiata Giddasira, Inc.
+# ----------------------------------------------------------------------
+# SPDX-License-Identifier: MIT
+
+name: Notebook Validation
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'notebooks/**/*.ipynb'
+      - '.github/workflows/notebook-validation.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'notebooks/**/*.ipynb'
+
+jobs:
+  validate-notebooks:
+    name: Validate Jupyter Notebooks
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install validation dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install nbformat nbconvert jupyter
+      
+      - name: Validate notebook structure
+        run: |
+          echo "Validating notebook JSON structure..."
+          python -c "
+          import sys
+          import nbformat
+          from pathlib import Path
+          
+          errors = []
+          notebooks = list(Path('notebooks').rglob('*.ipynb'))
+          
+          for nb_path in notebooks:
+              try:
+                  with open(nb_path, 'r', encoding='utf-8') as f:
+                      nb = nbformat.read(f, as_version=4)
+                  print(f'✅ {nb_path.name} - Valid structure')
+              except Exception as e:
+                  errors.append(f'❌ {nb_path.name} - {str(e)}')
+                  print(f'❌ {nb_path.name} - {str(e)}')
+          
+          if errors:
+              print(f'\n{len(errors)} notebook(s) failed validation')
+              sys.exit(1)
+          else:
+              print(f'\n✅ All {len(notebooks)} notebooks validated successfully')
+          "
+      
+      - name: Check for execution artifacts
+        run: |
+          echo "Checking for leftover execution outputs..."
+          python -c "
+          import nbformat
+          from pathlib import Path
+          
+          warnings = []
+          notebooks = list(Path('notebooks').rglob('*.ipynb'))
+          
+          for nb_path in notebooks:
+              with open(nb_path, 'r', encoding='utf-8') as f:
+                  nb = nbformat.read(f, as_version=4)
+              
+              for i, cell in enumerate(nb.cells):
+                  if cell.cell_type == 'code':
+                      # Check for execution count (indicates notebook was run)
+                      if cell.get('execution_count') is not None:
+                          warnings.append(f'⚠️  {nb_path.name} - Cell {i+1} has execution count')
+                      
+                      # Check for outputs (indicates notebook was run)
+                      if cell.get('outputs'):
+                          warnings.append(f'⚠️  {nb_path.name} - Cell {i+1} has outputs')
+          
+          if warnings:
+              print('\n'.join(warnings))
+              print(f'\n⚠️  {len(warnings)} execution artifact(s) found')
+              print('Consider clearing outputs before committing for cleaner diffs')
+          else:
+              print(f'✅ All notebooks are clean (no execution artifacts)')
+          "
+        continue-on-error: true
+      
+      - name: Check notebook metadata
+        run: |
+          echo "Checking notebook metadata..."
+          python -c "
+          import nbformat
+          from pathlib import Path
+          
+          notebooks = list(Path('notebooks').rglob('*.ipynb'))
+          
+          for nb_path in notebooks:
+              with open(nb_path, 'r', encoding='utf-8') as f:
+                  nb = nbformat.read(f, as_version=4)
+              
+              # Check for kernel info
+              kernel_name = nb.metadata.get('kernelspec', {}).get('name', 'unknown')
+              language = nb.metadata.get('kernelspec', {}).get('language', 'unknown')
+              
+              print(f'{nb_path.name}:')
+              print(f'  Kernel: {kernel_name}')
+              print(f'  Language: {language}')
+              print(f'  Cells: {len(nb.cells)}')
+              print()
+          "
