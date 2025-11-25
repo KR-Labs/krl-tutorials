@@ -1,0 +1,168 @@
+
+================================================================================
+SPATIAL MEDIA INTELLIGENCE DEMO
+Climate Change Policy & Regulation
+================================================================================
+
+Generated: November 19, 2025 at 03:30 PM
+Target Customer: Center for American Progress - Climate & Energy
+
+================================================================================
+EXECUTIVE SUMMARY
+================================================================================
+
+Coverage Analysis:
+  • Total articles: 25
+  • Date range: 2025-11-12 to 2025-11-19
+  • Geographic coverage: 12 unique locations
+  • Source diversity: 22 media outlets
+
+Spatial Narrative Clusters Discovered: 8
+
+This analysis reveals 8 distinct regional narrative patterns,
+showing how media coverage of climate change policy & regulation varies
+geographically across the United States.
+
+================================================================================
+REGIONAL NARRATIVE CLUSTERS
+================================================================================
+
+
+Cluster 7: American
+  • Articles: 13
+  • Geographic radius: 2155.5 km
+  • Sample headlines:
+     1. 
+     2. 
+     3. 
+
+
+Cluster 4: Seattle, Washington, United States
+  • Articles: 2
+  • Geographic radius: 31.0 km
+  • Sample headlines:
+     1. John Braun Commentary Clarity On Climate Policy Cost Comes Too Late For Our State,391252
+     2. John Braun Commentary Clarity On Climate Policy Cost Comes Too Late For Our State,391252
+
+
+Cluster 5: United States
+  • Articles: 1
+  • Geographic radius: 0.0 km
+  • Sample headlines:
+     1. Pyent4Mv2
+
+
+Cluster 8: Hollywood, California, United States
+  • Articles: 1
+  • Geographic radius: 0.0 km
+  • Sample headlines:
+     1. Qdvnpok7Q
+
+
+Cluster 3: Delaware, United States
+  • Articles: 2
+  • Geographic radius: 0.0 km
+  • Sample headlines:
+     1. Article Eeb32578 A40C 4612 Bed4 8233A2F8Be68
+     2. Article 90A61Dac 60C1 43Ca 8797 B81488Cfc3F1
+
+
+Cluster 1: United States
+  • Articles: 2
+  • Geographic radius: 930.0 km
+  • Sample headlines:
+     1. 2Poqb97W9
+     2. A642113951
+
+
+Cluster 6: Washington, Washington, United States
+  • Articles: 1
+  • Geographic radius: 0.0 km
+  • Sample headlines:
+     1. Cop30 Brazilian Meat Giant Jbs Recommends Climate Policy
+
+
+Cluster 2: California, United States
+  • Articles: 3
+  • Geographic radius: 2493.4 km
+  • Sample headlines:
+     1. Newsom Blasts Trump Dumb Us Climate Policy Rcna243393
+     2. Cop30 California Governor Newsom Blasts Trump Dumb Us Climate Policy
+     3. Cop30 California Governor Newsom Blasts Trump Dumb Us Climate Policy
+
+
+================================================================================
+KEY INSIGHTS
+================================================================================
+
+Regional Differences Detected:
+  • Different locations show distinct coverage patterns
+  • Narrative framing varies by geography
+  • This spatial analysis is invisible in title-only monitoring
+
+Value for Think Tanks:
+  • Identify regional resistance patterns before policy rollout
+  • Tailor messaging to specific geographic audiences
+  • Detect early warning signals of opposition campaigns
+  • Track policy discourse spread across regions
+
+================================================================================
+METHODOLOGY
+================================================================================
+
+Data Source: GDELT BigQuery (Global Database of Events, Language, and Tone)
+  • 758M+ global media signals
+  • Real-time monitoring (15-minute update cycle)
+  • 80%+ geolocated articles (vs 0% in traditional tools)
+
+Algorithm: Spatial-Semantic Clustering (Patent-Pending)
+  • Combines text embeddings + geographic coordinates
+  • λ_spatial = 0.15 (trade secret parameter)
+  • Discovers regional narrative patterns automatically
+
+Competitor Comparison:
+  • Meltwater: No spatial clustering, title-only
+  • Brandwatch: No spatial clustering, generic sentiment
+  • Our platform: Geographic + semantic analysis combined
+
+================================================================================
+NEXT STEPS
+================================================================================
+
+For Center for American Progress - Climate & Energy:
+
+1. PILOT PROGRAM (3 months, $18,750)
+   • 10 custom policy analyses
+   • Regional narrative tracking
+   • Monthly trend reports
+   • 2 user seats
+
+2. SUCCESS METRICS
+   • Prediction accuracy: Does our spatial analysis correctly identify
+     regional resistance patterns?
+   • Utility: Do regional insights inform your policy messaging?
+   • ROI: Does early warning save research/advocacy costs?
+
+3. DECISION TIMELINE
+   • Weeks 1-2: Onboarding + training
+   • Weeks 3-12: Active pilot + monthly reviews
+   • Week 13: Results review + annual contract decision
+
+Annual Contract: $75,000/year
+  • Unlimited policy analyses
+  • 5 user seats
+  • Quarterly trend reports
+  • 24-hour support
+  • API access
+
+================================================================================
+CONTACT
+================================================================================
+
+Brandon DeLo
+Founder, Khipu Media Intelligence
+brandon@khipu.ai
+
+Schedule demo: khipu.ai/demo
+
+================================================================================
