@@ -1,0 +1,162 @@
+
+================================================================================
+SPATIAL MEDIA INTELLIGENCE DEMO
+Housing Affordability & Zoning Reform
+================================================================================
+
+Generated: November 19, 2025 at 03:30 PM
+Target Customer: Urban Institute - Housing Finance Policy Center
+
+================================================================================
+EXECUTIVE SUMMARY
+================================================================================
+
+Coverage Analysis:
+  • Total articles: 161
+  • Date range: 2025-11-12 to 2025-11-19
+  • Geographic coverage: 17 unique locations
+  • Source diversity: 92 media outlets
+
+Spatial Narrative Clusters Discovered: 7
+
+This analysis reveals 7 distinct regional narrative patterns,
+showing how media coverage of housing affordability & zoning reform varies
+geographically across the United States.
+
+================================================================================
+REGIONAL NARRATIVE CLUSTERS
+================================================================================
+
+
+Cluster 4: American
+  • Articles: 13
+  • Geographic radius: 2537.3 km
+  • Sample headlines:
+     1. 
+     2. 
+     3. 
+
+
+Cluster 1: America
+  • Articles: 11
+  • Geographic radius: 2605.5 km
+  • Sample headlines:
+     1. Housing Numbers Buyers Market Affordability
+     2. How Housing Affordability Is Polarizing Voters
+     3. Charlotte To Host Inaugural Housing Innovation Challenge To Tackle The National Affordability Crisis
+
+
+Cluster 5: South Portland, Maine, United States
+  • Articles: 2
+  • Geographic radius: 391.3 km
+  • Sample headlines:
+     1. 2227670
+     2. 264737
+
+
+Cluster 7: Germantown, Pennsylvania, United States
+  • Articles: 1
+  • Geographic radius: 0.0 km
+  • Sample headlines:
+     1. Faith Leaders Call For Housing Affordability And A Repeal Of Citys Business Tax Cuts,38687
+
+
+Cluster 3: Washington, Washington, United States
+  • Articles: 131
+  • Geographic radius: 2631.3 km
+  • Sample headlines:
+     1. Fact Check Team Will Trumps 50 Year Mortgage Idea Solve Or Worsen Housing Affordability Delay Americ
+     2. Fact Check Team Will Trumps 50 Year Mortgage Idea Solve Or Worsen Housing Affordability Delay Americ
+     3. Fact Check Team Will Trumps 50 Year Mortgage Idea Solve Or Worsen Housing Affordability Delay Americ
+
+
+Cluster 2: Washington, Washington, United States
+  • Articles: 2
+  • Geographic radius: 0.0 km
+  • Sample headlines:
+     1. Dc Council Brooke Pinto Prosper Dc Legislation Economy Jobs Youth Programs Business Growth Housing A
+     2. Dc Council Committees Hear From Community On Housing Voucher Program Affordability Real Estate Homel
+
+
+Cluster 6: Los Angeles, California, United States
+  • Articles: 1
+  • Geographic radius: 0.0 km
+  • Sample headlines:
+     1. Article 4E816B05 8840 48Fb B609 68735Fc39753
+
+
+================================================================================
+KEY INSIGHTS
+================================================================================
+
+Regional Differences Detected:
+  • Different locations show distinct coverage patterns
+  • Narrative framing varies by geography
+  • This spatial analysis is invisible in title-only monitoring
+
+Value for Think Tanks:
+  • Identify regional resistance patterns before policy rollout
+  • Tailor messaging to specific geographic audiences
+  • Detect early warning signals of opposition campaigns
+  • Track policy discourse spread across regions
+
+================================================================================
+METHODOLOGY
+================================================================================
+
+Data Source: GDELT BigQuery (Global Database of Events, Language, and Tone)
+  • 758M+ global media signals
+  • Real-time monitoring (15-minute update cycle)
+  • 80%+ geolocated articles (vs 0% in traditional tools)
+
+Algorithm: Spatial-Semantic Clustering (Patent-Pending)
+  • Combines text embeddings + geographic coordinates
+  • λ_spatial = 0.15 (trade secret parameter)
+  • Discovers regional narrative patterns automatically
+
+Competitor Comparison:
+  • Meltwater: No spatial clustering, title-only
+  • Brandwatch: No spatial clustering, generic sentiment
+  • Our platform: Geographic + semantic analysis combined
+
+================================================================================
+NEXT STEPS
+================================================================================
+
+For Urban Institute - Housing Finance Policy Center:
+
+1. PILOT PROGRAM (3 months, $18,750)
+   • 10 custom policy analyses
+   • Regional narrative tracking
+   • Monthly trend reports
+   • 2 user seats
+
+2. SUCCESS METRICS
+   • Prediction accuracy: Does our spatial analysis correctly identify
+     regional resistance patterns?
+   • Utility: Do regional insights inform your policy messaging?
+   • ROI: Does early warning save research/advocacy costs?
+
+3. DECISION TIMELINE
+   • Weeks 1-2: Onboarding + training
+   • Weeks 3-12: Active pilot + monthly reviews
+   • Week 13: Results review + annual contract decision
+
+Annual Contract: $75,000/year
+  • Unlimited policy analyses
+  • 5 user seats
+  • Quarterly trend reports
+  • 24-hour support
+  • API access
+
+================================================================================
+CONTACT
+================================================================================
+
+Brandon DeLo
+Founder, Khipu Media Intelligence
+brandon@khipu.ai
+
+Schedule demo: khipu.ai/demo
+
+================================================================================

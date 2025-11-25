@@ -1,0 +1,9 @@
+cluster_id,size,location,center_lat,center_lon,radius_km,sample_headlines
+6,13,American,39.057417307692305,-95.47245384615384,2155.466729345512,"['', '', '', '', '']"
+3,2,"Seattle, Washington, United States",47.49895,-121.9515,30.9994416179019,"['John Braun Commentary Clarity On Climate Policy Cost Comes Too Late For Our State,391252', 'John Braun Commentary Clarity On Climate Policy Cost Comes Too Late For Our State,391252']"
+4,1,United States,39.828175,-98.5795,0.0,['Pyent4Mv2']
+7,1,"Hollywood, California, United States",34.0983,-118.327,0.0,['Qdvnpok7Q']
+2,2,"Delaware, United States",39.3498,-75.5148,0.0,"['Article Eeb32578 A40C 4612 Bed4 8233A2F8Be68', 'Article 90A61Dac 60C1 43Ca 8797 B81488Cfc3F1']"
+0,2,United States,39.3616375,-87.80795,930.0233547401665,"['2Poqb97W9', 'A642113951']"
+5,1,"Washington, Washington, United States",38.8951,-77.0364,0.0,['Cop30 Brazilian Meat Giant Jbs Recommends Climate Policy']
+1,3,"California, United States",37.07836666666667,-105.50946666666665,2493.37455315952,"['Newsom Blasts Trump Dumb Us Climate Policy Rcna243393', 'Cop30 California Governor Newsom Blasts Trump Dumb Us Climate Policy', 'Cop30 California Governor Newsom Blasts Trump Dumb Us Climate Policy']"
