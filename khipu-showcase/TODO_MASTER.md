@@ -191,12 +191,21 @@
 # Phase 2: Advanced Features (Weeks 9-16)
 **Goal: +0.6 points → Score: 99.8/100**
 
-## Sprint 5: Multi-Unit SCM (Weeks 9-10)
-- [ ] Implement `MultiUnitSCM` class in model-zoo
-- [ ] Hierarchical synthetic control
-- [ ] Cross-validated weight selection
-- [ ] Uncertainty quantification
-- [ ] NB25 notebook demonstration
+## Sprint 5: Multi-Unit SCM (Weeks 9-10) ✅ COMPLETE
+**Target: Multi-unit treatment effects + hierarchical SCM**
+**Location: `krl-model-zoo-v2-2.0.0-community/krl_models/causal/`**
+**Completed: November 30, 2025**
+
+- [x] Implement `MultiUnitSCM` class in model-zoo
+- [x] Hierarchical synthetic control (`HierarchicalSCM`)
+- [x] Cross-validated weight selection (K-fold CV)
+- [x] Uncertainty quantification (bootstrap, placebo, conformal)
+- [x] NB25 notebook demonstration
+
+**Files Created:**
+- `krl_models/causal/multi_unit_scm.py` - 900+ lines
+- `tests/test_multi_unit_scm.py` - 17 test cases
+- `notebooks/25-multi-unit-synthetic-control.ipynb` - NB25
 
 ## Sprint 6: Parallel GWR Implementation (Weeks 11-12)
 - [ ] Dask-based parallel GWR
