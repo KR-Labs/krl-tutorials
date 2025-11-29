@@ -1,0 +1,119 @@
+# MkDocs configuration for khipu-showcase documentation
+
+site_name: Khipu Showcase
+site_description: Public demonstration notebooks for the Khipu Socioeconomic Analysis Suite
+site_author: KR-Labs
+site_url: https://kr-labs.github.io/khipu-showcase
+
+repo_name: KR-Labs/khipu-showcase
+repo_url: https://github.com/KR-Labs/khipu-showcase
+
+copyright: Copyright &copy; 2025 KR-Labs
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.copy
+    - content.code.annotate
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+  - mkdocs-jupyter:
+      include_source: true
+      execute: false
+      allow_errors: false
+      theme: dark
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/KR-Labs
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/KRLabsIO
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX  # Replace with actual tracking ID
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: getting-started/installation.md
+    - Quick Start: getting-started/quickstart.md
+    - Demo Mode: getting-started/demo-mode.md
+  - Tutorials:
+    - Overview: tutorials/index.md
+    - Housing-Wage Divergence: notebooks/01-metro-housing-wage-divergence.ipynb
+  - API Reference:
+    - Data Module: api/data.md
+    - Clients Module: api/clients.md
+    - Visualization Module: api/visualization.md
+  - Contributing:
+    - Guidelines: contributing/guidelines.md
+    - Security: contributing/security.md
+  - About:
+    - License: about/license.md
+    - Changelog: about/changelog.md

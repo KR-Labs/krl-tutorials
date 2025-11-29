@@ -1,0 +1,16 @@
+# postBuild script for Binder
+# Run after the environment is built
+
+set -ex
+
+# Install the package in development mode
+pip install -e .
+
+# Trust notebooks for rendering
+jupyter trust notebooks/*.ipynb
+
+# Enable Jupyter extensions
+jupyter labextension enable @jupyterlab/git
+
+echo "✅ Binder environment ready!"
+echo "📓 Open notebooks/ to start exploring"

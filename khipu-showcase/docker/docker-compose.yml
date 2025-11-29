@@ -1,0 +1,59 @@
+# Docker Compose configuration for khipu-showcase
+# Provides local development and testing environment
+
+version: "3.9"
+
+services:
+  # JupyterLab for development
+  jupyter:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: khipu-jupyter
+    ports:
+      - "8888:8888"
+    volumes:
+      - ../notebooks:/app/notebooks:rw
+      - ../src:/app/src:rw
+    environment:
+      - DEMO_MODE=true
+      - JUPYTER_ENABLE_LAB=yes
+    command: jupyter lab --ip=0.0.0.0 --port=8888 --no-browser --allow-root
+    restart: unless-stopped
+
+  # Voilà for dashboard deployment
+  voila:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: khipu-voila
+    ports:
+      - "8866:8866"
+    volumes:
+      - ../notebooks:/app/notebooks:ro
+      - ../src:/app/src:ro
+    environment:
+      - DEMO_MODE=true
+    command: >
+      voila notebooks/
+      --port=8866
+      --no-browser
+      --Voila.ip=0.0.0.0
+      --VoilaConfiguration.file_whitelist=['.*']
+      --theme=dark
+    restart: unless-stopped
+
+  # Static documentation server
+  docs:
+    image: squidfunk/mkdocs-material:latest
+    container_name: khipu-docs
+    ports:
+      - "8000:8000"
+    volumes:
+      - ..:/docs:ro
+    command: serve --dev-addr=0.0.0.0:8000
+    restart: unless-stopped
+
+networks:
+  default:
+    name: khipu-network
